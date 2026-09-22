@@ -145,14 +145,6 @@ as the simulator, and run — good for quickly sharing/demoing the project.
 
 ---
 
-## 🎯 For Your Resume / Report
-- Mention **FSM type (Moore)**, **states**, and **verification method**
-  (self-checking testbench, waveform-verified with Icarus Verilog/GTKWave).
-- Add a screenshot of the GTKWave waveform to your README/report — it's
-  the most convincing proof of correct RTL behavior for a reviewer.
-- If targeting an FPGA board, add a `constraints.xdc` (Xilinx) or `.qsf`
-  (Intel) pin-mapping file and mention the board you targeted.
-
 ## 🚀 Future Improvements
 - **Traffic light**: add pedestrian crossing button/state, night-mode
   (blinking yellow), left-turn arrow phase, or sensor-based (vehicle
@@ -165,5 +157,5 @@ as the simulator, and run — good for quickly sharing/demoing the project.
 - Synthesize on a real FPGA (e.g. Basys3/DE10-Lite) and drive actual LEDs.
 
 ---
-**Author:** Your Name
+**Author:** Vaishnavi Wavare
 **Tools used:** Verilog HDL, Icarus Verilog, GTKWave
